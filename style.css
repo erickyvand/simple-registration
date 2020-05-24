@@ -1,0 +1,68 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.form-container {
+  border: 1px solid rgb(250, 249, 249);
+  width: 35%;
+  background-color: rgb(250, 249, 249);
+  margin: auto;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  width: 100%;
+  height: 50px;
+  margin: 20px;
+}
+
+.form-control {
+  width: 80%;
+  height: 26px;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid rgb(224, 222, 222);
+}
+
+.btn {
+  width: 83%;
+  height: 50px;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.results-container {
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  border: 1px solid rgb(224, 222, 222);
+  padding: 10px;
+}
+
+.error-message {
+  background-color: tomato;
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+}
