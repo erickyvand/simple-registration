@@ -1,0 +1,23 @@
+{
+  "name": "simple-registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickyvand/simple-registration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickyvand/simple-registration/issues"
+  },
+  "homepage": "https://github.com/erickyvand/simple-registration#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
