@@ -11,7 +11,10 @@ btn.addEventListener('click', e => {
   if (!firstName.value || !lastName.value || !occupation.value) {
     message.classList.add('error-message');
     message.innerHTML = 'All fields are required';
-    setTimeout(() => message.remove(), 6000)
+    setTimeout(() => {
+      message.remove();
+      location.reload();
+    }, 6000)
   } else {
     const row = table.insertRow(1)
     const cell1 = row.insertCell(0);
